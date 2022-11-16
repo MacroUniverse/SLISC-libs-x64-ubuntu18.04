@@ -1,0 +1,9 @@
+libdir=/home/docker/libs/lapack32-a/lib
+includedir=/home/docker/libs/lapack32-a/include
+
+Name: LAPACK
+Description: FORTRAN reference implementation of LAPACK Linear Algebra PACKage
+Version: 3.10.1
+URL: http://www.netlib.org/lapack/
+Libs: -L${libdir} -llapack
+Requires.private: blas
