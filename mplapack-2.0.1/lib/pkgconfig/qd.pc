@@ -1,0 +1,14 @@
+/------------------ qd.pc ------------------------
+prefix=/home/docker/MPLAPACK
+exec_prefix=/home/docker/MPLAPACK
+libdir=/home/docker/MPLAPACK/lib
+includedir=/home/docker/MPLAPACK/include
+
+Name: qd
+Description: A C++/Fortran-90 double-double and quad-double package
+URL: http://crd-legacy.lbl.gov/~dhbailey/mpdist/
+Version: 2.3.23
+Requires:
+Libs: -L${exec_prefix}/lib -lqd
+Cflags: -I${prefix}/include
+\-------------------------------------------------------

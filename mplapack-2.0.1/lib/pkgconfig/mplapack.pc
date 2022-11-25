@@ -1,0 +1,16 @@
+prefix=/home/docker/MPLAPACK
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+libdir=${exec_prefix}/lib
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+sysconfdir=${prefix}/etc
+includedir=${prefix}/include
+package=mplapack
+
+Name: mplapack
+Description: A multiple precision version of BLAS and LAPACK
+Version: 2.0.1
+Requires:
+Libs: -L${libdir}  -lmplapack_dd -lmpblas_dd -lmplapack_qd -lmpblas_qd -lmplapack_gmp -lmpblas_gmp -lmplapack_mpfr -lmpblas_mpfr -lmplapack__Float128 -lmpblas__Float128 -lmplapack_double -lmpblas_double -lmplapack__Float64x -lmpblas__Float64x -lgmpxx -lgmp -lqd -lmpfr -lmpc -fopenmp
+Cflags: -I${includedir}
