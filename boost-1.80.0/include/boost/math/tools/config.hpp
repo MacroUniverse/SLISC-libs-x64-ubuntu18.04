@@ -19,9 +19,9 @@
 #    pragma warning("The minimum language standard to use Boost.Math will be C++14 starting in July 2023 (Boost 1.82 release)");
 #  endif
 #else
-#  if __cplusplus < 201402L
-#    warning "The minimum language standard to use Boost.Math will be C++14 starting in July 2023 (Boost 1.82 release)"
-#  endif
+// #  if __cplusplus < 201402L
+// #    warning "The minimum language standard to use Boost.Math will be C++14 starting in July 2023 (Boost 1.82 release)"
+// #  endif
 #endif
 
 #ifndef BOOST_MATH_STANDALONE
