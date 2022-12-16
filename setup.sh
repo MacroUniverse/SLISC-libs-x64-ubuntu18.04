@@ -12,8 +12,10 @@ done
 ADD="source ../SLISC0/make/lib_append.sh $PWD"
 
 $ADD/arb-2.23.0
-$ADD/arpack-ng-3.8.0
+$ADD/arpack-ng64-shared-3.8.0
 $ADD/arpack-ng64-static-3.8.0
+$ADD/arpack-ng-shared-3.8.0
+$ADD/arpack-ng-static-3.8.0
 $ADD/arpackpp-2.3.0
 $ADD/boost-1.80.0
 $ADD/eigen-3.4.0
