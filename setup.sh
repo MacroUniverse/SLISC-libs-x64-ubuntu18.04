@@ -1,5 +1,7 @@
 # use `source setvars.sh` in here to setup
 
+echo ":: initializing SLISC0-libs-x64-ubuntu18.04"
+
 # recover split files due to github filesize limitation
 FILES="flint2-2.9.0/lib/libflint.a"
 for FILE in $FILES
@@ -9,7 +11,7 @@ if [[ ! -f "$FILE" ]]; then
 fi
 done
 
-ADD="source ../SLISC0/make/lib_append.sh $PWD"
+ADD="source ../SLISC0/make/lib_prepend.sh $PWD"
 
 $ADD/arb-2.23.0
 $ADD/arpack-ng64-shared-3.8.0
