@@ -1,4 +1,4 @@
-prefix=/home/docker/libs/arpack
+prefix=/home/docker/libs/arpack64-a
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

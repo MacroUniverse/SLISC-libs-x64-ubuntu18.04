@@ -12,7 +12,7 @@
 #   target_link_libraries(main PARPACK::PARPACK)
 
 # Create local variables.
-set(prefix "/home/docker/libs/arpack")
+set(prefix "/home/docker/libs/arpack64-a")
 set(exec_prefix "${prefix}")
 set(libdir "${exec_prefix}/lib")
 set(includedir "${prefix}/include")

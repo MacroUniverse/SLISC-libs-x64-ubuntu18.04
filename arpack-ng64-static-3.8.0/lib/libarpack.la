@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/docker/libs/arpack/lib'
+libdir='/home/docker/libs/arpack64-a/lib'
