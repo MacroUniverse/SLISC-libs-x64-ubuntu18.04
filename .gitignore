@@ -1,2 +1,2 @@
-
-flint2-2.9.0/lib/libflint.a
+libflint.a
+libmkl_core.a
