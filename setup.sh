@@ -11,7 +11,7 @@ if [[ ! -f "$FILE" ]]; then
 fi
 done
 
-ADD="source ../SLISC0/make/lib_prepend.sh $PWD"
+ADD="source lib_prepend.sh $PWD"
 
 $ADD/arb-2.23.0
 $ADD/arpack-ng64-shared-3.8.0
