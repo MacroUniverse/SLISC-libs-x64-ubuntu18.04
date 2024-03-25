@@ -33,3 +33,4 @@ $ADD/mplapack-2.0.1
 $ADD/sqlite-3.40.0
 $ADD/sqlitecpp-3.2.1
 $ADD/mkl64-2022.1.0
+$ADD/hdf5-1.10.0
